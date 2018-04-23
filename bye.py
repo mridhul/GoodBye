@@ -1,8 +1,8 @@
 from cisco import friends
-from MridhulJosePax import mpax
+import MridhulJosePax as mpax
 import json
 
-with open("{}/database/memories.json".format(root_dir()), "r") as f:
+with open("{}/database/cisco.json".format(root_dir()), "r") as f:
     memories = json.load(f)
 
 '''
